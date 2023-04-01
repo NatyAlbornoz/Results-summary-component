@@ -1,0 +1,59 @@
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&display=swap');
+
+  body {
+      background-color: hsl(0, 0%, 100%);
+      font-size: 18px;
+      font-family: 'Hanken Grotesk', sans-serif;
+  }
+
+  .container {
+      border: 1px solid black;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .card {
+      border: 1px solid black;
+      height: 300px;
+      width: 400px;
+      align-items: end;
+      display: flex;
+      align-items: center;
+  }
+
+  .card-blue {
+      border: 1px solid black;
+      height: 100%;
+      width: 50%;
+      text-align: center;
+      margin: 1rem;
+      background-color: hsl(241, 81%, 54%);
+      /* background-color: hsl(252, 100%, 67%); */
+background-color: hsla(256, 72%, 46%, 1);
+  }
+
+  .circulo {
+      border: 1px solid black;
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+      margin: auto;
+      margin-top: 1rem;
+      background-color: hsl(252, 100%, 67%);
+  }
+
+  .card-white {
+      border: 1px solid black;
+      height: 100%;
+      width: 50%;
+      margin: 1rem;
+  }
+
+
+  .summary-box {
+      border: 1px solid black;
+      height: 25px;
+      width: 80%;
+  }
